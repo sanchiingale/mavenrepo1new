@@ -43,10 +43,10 @@ jobs:
           username: containerregisanchi
           password: +UbiurZb5sTo39bJKFVGESR5/CKFP7/e
 
-      - name: Docker build and Push
-        run: |
-            docker build . -t containerregisanchi.azurecr.io/sanchidockerimage:latest
-            docker push containerregisanchi.azurecr.io/sanchidockerimage:latest
+#       - name: Docker build and Push
+#         run: |
+#             docker build . -t containerregisanchi.azurecr.io/sanchidockerimage:latest
+#             docker push containerregisanchi.azurecr.io/sanchidockerimage:latest
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
